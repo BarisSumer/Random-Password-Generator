@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-size: 10px;
+   
+}
+
+.app{
+    border:1px solid #6998AB;
+    border-radius: 1rem;
+    width: 30rem;
+    margin: auto;
+    margin-top: 5rem;
+    background-color: #6998AB;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color:greenyellow;
+}
+
+#password{
+    font-size: 1.5rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+    width: 12rem;
+    height: 2rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    text-align: center;
+    color:white;
+    
+}
+
+#create{
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    color: greenyellow;
+    background-color: hotpink;
+    border:1px solid hotpink;
+    border-radius: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    transition: all 0.5s;
+    margin-right: 1rem;
+    padding: 10px;
+}
+
+#create:hover{
+    color:hotpink;
+    background-color: greenyellow;
+    border:1px solid greenyellow;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 15rem;
+    margin: auto;
+}
+
+#input{
+    width: 50px;
+    height: 25px;
+    font-size: 1.5rem;
+}
+
+.lengthDiv{
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+
+h3{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    color: hotpink;
+}
+
+#copy{
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid hotpink;
+    background-color: #6998AB;
+    padding: 5px;
+}
+
+#copy:hover{
+    border:1px solid greenyellow;
+}
+
+
+.copyDiv{
+    margin: auto;
+    text-align: center;
+}
